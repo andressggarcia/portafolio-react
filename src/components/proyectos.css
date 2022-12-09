@@ -1,0 +1,61 @@
+.container-proyectos{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+.div-proyectos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.container-title__proyectos{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 60px ;
+}
+.h2-proyectos__mis{
+    font-size: 32px;
+    margin-right: 10px;
+}
+.h2-proyectos{
+    color: rgba(190, 255, 60, 0.846);
+}
+.a-img{
+    position: relative;
+    width: 400px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.a-img>img{
+    width: 400px;
+    transition: all .5s ease-out;
+}
+.hover-proyecto{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: rgba(190, 255, 60, 0.8);
+    transition: all .5s ease-out;
+    transform: scale(1.5);
+    opacity: 0;
+}
+.hover-proyecto > h4{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight:900px;
+}
+
+.hover-proyecto:hover{
+    transform: scale(1);
+    opacity: 1;
+    
+}

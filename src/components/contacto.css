@@ -1,0 +1,60 @@
+.container-contacto{
+    text-align: center;
+    margin-top: 150px;
+}
+.container-contacto>h2{
+    font-size: 32px;
+}
+.div-container__contacto{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+.title-habilidades{
+    margin-bottom: 60px;
+}
+.div-contacto{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.div-contacto>i{
+    font-size: 24px;
+    margin-bottom: 1rem;
+    color: rgba(190, 255, 60, 0.846);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-contacto>p{    
+    margin-bottom: 15px;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-dos{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    color: rgba(190, 255, 60, 0.846);
+    padding-bottom: 15px;
+}
+.circulo-dos{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.circulo-dos>i{
+    font-size: 24px;
+    color: rgba(190, 255, 60, 0.846);
+}
