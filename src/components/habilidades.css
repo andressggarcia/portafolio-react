@@ -82,3 +82,8 @@ span>i{
         align-items: center;
     }
 }
+@media screen and (max-width:600px){
+    .habilidades{
+        max-width: 340px;
+    }
+}

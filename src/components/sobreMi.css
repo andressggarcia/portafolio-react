@@ -63,3 +63,11 @@
         width: 320px;
     }
 }
+@media screen and (max-width:600px){
+    .info-sobremi{
+        max-width: 360px;
+    }
+    .p-info__sobremi{
+        max-width: 360px;
+    }
+}
