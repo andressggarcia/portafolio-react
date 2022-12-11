@@ -50,3 +50,16 @@
     text-decoration: none;
     color: #fff;
 }
+@media screen and (max-width:1000px) {
+    .div-sobremi{
+        display: flex;
+        flex-direction: column;
+    }
+    .div-img__sobremi{
+        width: 360px;
+        height: 360px;
+    }
+    .img-sobremi{
+        width: 320px;
+    }
+}

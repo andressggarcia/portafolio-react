@@ -1,11 +1,13 @@
 .container-proyectos{
     width: 90%;
-    height: 600px;
+    
     margin: auto;
 }
 .div-proyectos{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
     gap: 1rem;
 }
 .container-title__proyectos{
@@ -19,6 +21,7 @@
     margin-right: 10px;
 }
 .h2-proyectos{
+    font-size: 32px;
     color: rgba(190, 255, 60, 0.846);
 }
 .a-img{
@@ -58,4 +61,22 @@
     transform: scale(1);
     opacity: 1;
     
+}
+@media screen and (max-width:1300px) {
+    
+    .div-proyectos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+        gap: 1rem;
+    }
+}
+@media screen and (max-width:900px) {
+    .div-proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }

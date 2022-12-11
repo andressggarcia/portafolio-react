@@ -3,7 +3,7 @@ import './habilidades.css'
 const Habilidades = () => {
     return (
         <div className='container-habilidades'>
-            <div className='title-habilidades'>
+            <div className='title-habilidades' id='habilities'>
                 <h2 className='h2-habilidades__title'>Mis</h2>
                 <h2 className='h2-habilidades__subtitle'>Habilidades</h2>
             </div>

@@ -61,3 +61,24 @@ span>i{
 .habilidades:hover i{
     color: #fff;
 }
+@media screen and (max-width:1300px) {
+    *{
+        margin: 0;
+    }
+    .div-habilidades{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: auto;
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .div-habilidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

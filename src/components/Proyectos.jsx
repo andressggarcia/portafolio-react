@@ -7,7 +7,7 @@ import tiempo from '../assets/Captura de pantalla (8).png'
 const Proyectos = () => {
     return (
         <div className='container-proyectos'>
-            <div className='container-title__proyectos'>
+            <div className='container-title__proyectos' id='proyects'>
                 <h2 className='h2-proyectos__mis'>Mis</h2>
                 <h2 className='h2-proyectos'>Proyectos</h2>
             </div>

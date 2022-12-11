@@ -3,7 +3,8 @@ import './App.css'
 import Contacto from './components/Contacto'
 import Habilidades from './components/Habilidades'
 import Home from './components/Home'
-import Navbar from './components/Navbar'
+import Menu from './components/Menu'
+
 import Proyectos from './components/Proyectos'
 import SobreMi from './components/SobreMi'
 
@@ -13,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-     <Navbar />
+      < Menu />
      <Home />
      <SobreMi />
      <Habilidades />
