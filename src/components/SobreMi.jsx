@@ -12,17 +12,10 @@ const SobreMi = () => {
             <div className='info-sobremi'>
                 <h2 className='h2-info__sobremi'>Hola , me llamo Emilio Garcia</h2>
                 <p className='p-info__sobremi' >
-                    Lorem ipsum dolor sit, amet consectetur adipisicing 
-                    elit. Expedita dolore recusandae, dignissimos 
-                    deleniti ex dolores voluptatibus asperiores,
-                     unde, ad cumque at ipsam id neque inventore 
-                     corrupti sed doloremque ipsum molestiae.
-                     Lorem ipsum dolor sit amet consectetur adipisicing
-                      elit. Officia repellendus in, fuga neque suscipit 
-                      consequatur reprehenderit! Quisquam quod,
-                       consectetur vero unde dolores molestiae 
-                       laboriosam ipsam nemo debitis reprehenderit 
-                       necessitatibus voluptates.
+                Soy una persona autodidacta, proactiva, eficaz, que ama la tecnología. 
+                Actualmente, dedico mi tiempo a estudiar y desarrollar aplicaciones web. <br /> Me encantan los desafíos.
+                Me encantaría ser parte de tu equipo, si tienes alguna duda o quieres saber más de mi, 
+                puedes contactarme a través de mis redes sociales o por un mensaje a traves del formulario de contacto.
                 </p>
                 <p className='p-info__sobremi'><b>Nombre:</b> Emilio Garcia</p>
                 <p className='p-info__sobremi'><b>Edad:</b> 23</p>

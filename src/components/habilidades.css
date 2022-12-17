@@ -57,6 +57,13 @@ span>i{
 }
 .habilidades>p{
     background-color: transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-node{
+    padding-top: 1rem;
 }
 .habilidades:hover i{
     color: #fff;

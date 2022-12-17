@@ -12,13 +12,9 @@ const Home = () => {
                     </div>
                     <h3 id='texto' className='h3-description' >Front-end developer.</h3>
                     <p className='p-description'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                         Vel quos distinctio, voluptatum possimus in id quas
-                          expedita vero sunt magnam unde! Sunt non deleniti 
-                          saepe soluta, optio adipisci molestias numquam.
-                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                          Odit iure rerum modi aliquam quod dignissimos,
-                          molestiae ab enim voluptas impedit  
+                        Soy dedicado y creativo, buscando constantemente mejorar personal y profesionalmente. 
+                        Me motiva el aprendizaje constante,
+                        actualmente me gusta trabajar con React.
                     </p>
                     <div className='social'>
                         <a className='circulo-uno' href="https://www.linkedin.com/in/emiliogarciagiaquinta/"><i class="fa-brands fa-linkedin-in"></i></a>
