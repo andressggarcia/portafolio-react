@@ -1,6 +1,16 @@
 .container-contacto{
+    width: 90%;
+    height: 650px;
+
+    margin: auto;
     text-align: center;
     margin-top: 150px;
+}
+.container-contacto__form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    margin-top: 100px;
 }
 .container-contacto>h2{
     font-size: 32px;
@@ -9,19 +19,19 @@
     font-size: 32px;
 }
 .div-container__contacto{
-    width: 90%;
+    width: 30%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     margin: auto;
-}
-.title-habilidades{
-    margin-bottom: 60px;
+    gap: 3rem;
 }
 .div-contacto{
     width: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .div-contacto>i{
     font-size: 24px;
@@ -62,6 +72,43 @@
     color: rgba(190, 255, 60, 0.846);
 }
 
+.form-mail{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 2rem;
+}
+
+.form-mail>input{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    color: black;
+}
+.form-mail > textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    color: #000;
+}
+.form-mail > button {
+    background-color: rgba(190, 255, 60, 0.846);
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+}
 @media screen and (max-width:600px){
     .div-container__contacto{
         display: flex;

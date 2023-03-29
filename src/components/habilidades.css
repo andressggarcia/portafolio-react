@@ -34,7 +34,8 @@ text-align: center;
     overflow: hidden;
 }
 .habilidades:hover{
-    background: rgba(190, 255, 60, 0.846);
+    background: rgba(173, 250, 20, 0.846);
+    background-color: rgba(190, 255, 60, 0.846);
 }
 span{
     
